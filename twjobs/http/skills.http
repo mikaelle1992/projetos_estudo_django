@@ -1,0 +1,31 @@
+GET http://127.0.0.1:8000/api/skills/
+
+###
+
+POST http://127.0.0.1:8000/api/skills/
+Content-Type: application/json
+
+{
+    "name":"DJANGO"
+}
+
+
+###
+
+GET http://127.0.0.1:8000/api/skills/2
+
+
+###
+
+DELETE http://127.0.0.1:8000/api/skills/3/
+
+
+###
+
+
+PUT http://127.0.0.1:8000/api/skills/5/
+Content-Type: application/json
+
+{
+    "name":"PHP"
+}

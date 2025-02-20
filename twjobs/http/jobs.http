@@ -1,0 +1,40 @@
+GET http://127.0.0.1:8000/api/jobs/
+
+###
+
+POST http://127.0.0.1:8000/api/jobs/
+Content-Type: application/json
+
+{
+    "title":"Teste",
+    "description":"descrição de teste",
+    "salary":5000,
+    "Skills":[1]
+
+}
+
+
+###
+
+
+GET http://127.0.0.1:8000/api/jobs/2
+
+
+###
+
+DELETE http://127.0.0.1:8000/api/jobs/2/
+
+
+###
+
+
+PUT http://127.0.0.1:8000/api/jobs/1/
+Content-Type: application/json
+
+{
+    "title":"Teste para PHP",
+    "description":"descrição de teste",
+    "salary":5000,
+    "Skills":[1]
+
+}
